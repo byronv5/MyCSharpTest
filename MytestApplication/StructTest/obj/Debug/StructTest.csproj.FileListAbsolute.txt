@@ -1,0 +1,5 @@
+F:\MyC#test\MytestApplication\StructTest\bin\Debug\StructTest.exe
+F:\MyC#test\MytestApplication\StructTest\bin\Debug\StructTest.pdb
+F:\MyC#test\MytestApplication\StructTest\obj\Debug\StructTest.csprojResolveAssemblyReference.cache
+F:\MyC#test\MytestApplication\StructTest\obj\Debug\StructTest.exe
+F:\MyC#test\MytestApplication\StructTest\obj\Debug\StructTest.pdb

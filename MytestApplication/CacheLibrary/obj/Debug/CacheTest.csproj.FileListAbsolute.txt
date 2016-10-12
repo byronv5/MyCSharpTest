@@ -1,0 +1,12 @@
+F:\MyC#test\MytestApplication\CacheLibrary\bin\Debug\CacheLibrary.exe
+F:\MyC#test\MytestApplication\CacheLibrary\bin\Debug\CacheLibrary.pdb
+F:\MyC#test\MytestApplication\CacheLibrary\bin\Debug\ServiceStack.Common.dll
+F:\MyC#test\MytestApplication\CacheLibrary\bin\Debug\ServiceStack.Interfaces.dll
+F:\MyC#test\MytestApplication\CacheLibrary\bin\Debug\ServiceStack.Redis.dll
+F:\MyC#test\MytestApplication\CacheLibrary\bin\Debug\ServiceStack.Text.dll
+F:\MyC#test\MytestApplication\CacheLibrary\bin\Debug\ServiceStack.Common.xml
+F:\MyC#test\MytestApplication\CacheLibrary\bin\Debug\ServiceStack.Redis.xml
+F:\MyC#test\MytestApplication\CacheLibrary\bin\Debug\ServiceStack.Text.xml
+F:\MyC#test\MytestApplication\CacheLibrary\obj\Debug\CacheTest.csprojResolveAssemblyReference.cache
+F:\MyC#test\MytestApplication\CacheLibrary\obj\Debug\CacheLibrary.exe
+F:\MyC#test\MytestApplication\CacheLibrary\obj\Debug\CacheLibrary.pdb

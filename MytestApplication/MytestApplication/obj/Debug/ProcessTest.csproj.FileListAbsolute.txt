@@ -1,0 +1,6 @@
+F:\MyC#test\MytestApplication\MytestApplication\bin\Debug\MytestApplication.exe.config
+F:\MyC#test\MytestApplication\MytestApplication\bin\Debug\MytestApplication.exe
+F:\MyC#test\MytestApplication\MytestApplication\bin\Debug\MytestApplication.pdb
+F:\MyC#test\MytestApplication\MytestApplication\obj\Debug\MytestApplication.exe
+F:\MyC#test\MytestApplication\MytestApplication\obj\Debug\MytestApplication.pdb
+F:\MyC#test\MytestApplication\MytestApplication\obj\Debug\ProcessTest.csprojResolveAssemblyReference.cache

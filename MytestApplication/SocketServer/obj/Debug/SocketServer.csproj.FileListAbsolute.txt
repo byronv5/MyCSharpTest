@@ -1,0 +1,5 @@
+F:\MyC#test\MytestApplication\SocketServer\bin\Debug\SocketServer.exe.config
+F:\MyC#test\MytestApplication\SocketServer\bin\Debug\SocketServer.exe
+F:\MyC#test\MytestApplication\SocketServer\bin\Debug\SocketServer.pdb
+F:\MyC#test\MytestApplication\SocketServer\obj\Debug\SocketServer.exe
+F:\MyC#test\MytestApplication\SocketServer\obj\Debug\SocketServer.pdb

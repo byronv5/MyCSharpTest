@@ -1,0 +1,6 @@
+F:\MyC#test\MytestApplication\WcfService\bin\WcfService.dll.config
+F:\MyC#test\MytestApplication\WcfService\bin\WcfService.dll
+F:\MyC#test\MytestApplication\WcfService\bin\WcfService.pdb
+F:\MyC#test\MytestApplication\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+F:\MyC#test\MytestApplication\WcfService\obj\Debug\WcfService.dll
+F:\MyC#test\MytestApplication\WcfService\obj\Debug\WcfService.pdb

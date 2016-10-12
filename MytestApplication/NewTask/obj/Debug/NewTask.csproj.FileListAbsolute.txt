@@ -1,0 +1,7 @@
+F:\MyC#test\MytestApplication\NewTask\bin\Debug\NewTask.exe.config
+F:\MyC#test\MytestApplication\NewTask\bin\Debug\NewTask.exe
+F:\MyC#test\MytestApplication\NewTask\bin\Debug\NewTask.pdb
+F:\MyC#test\MytestApplication\NewTask\bin\Debug\RabbitMQ.Client.dll
+F:\MyC#test\MytestApplication\NewTask\bin\Debug\RabbitMQ.Client.xml
+F:\MyC#test\MytestApplication\NewTask\obj\Debug\NewTask.exe
+F:\MyC#test\MytestApplication\NewTask\obj\Debug\NewTask.pdb

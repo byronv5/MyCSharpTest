@@ -1,0 +1,5 @@
+F:\MyC#test\MytestApplication\AlgorithmTest\bin\Debug\AlgorithmTest.exe.config
+F:\MyC#test\MytestApplication\AlgorithmTest\bin\Debug\AlgorithmTest.exe
+F:\MyC#test\MytestApplication\AlgorithmTest\bin\Debug\AlgorithmTest.pdb
+F:\MyC#test\MytestApplication\AlgorithmTest\obj\Debug\AlgorithmTest.exe
+F:\MyC#test\MytestApplication\AlgorithmTest\obj\Debug\AlgorithmTest.pdb

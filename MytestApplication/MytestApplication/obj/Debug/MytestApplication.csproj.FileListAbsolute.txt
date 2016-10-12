@@ -1,0 +1,1 @@
+F:\MyC#test\MytestApplication\MytestApplication\bin\Debug\MytestApplication.exe.config

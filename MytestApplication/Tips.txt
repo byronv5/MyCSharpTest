@@ -1,0 +1,5 @@
+Using message acknowledgments and BasicQos you can set up a work queue. 
+ack用于回执设置，只有收到回执（即消息处理完毕），当前消息才会从队列中移除；
+BasicQops用于设置任务分发，只有收到前一条消息的回执才会发给当前worker，否则轮循下一个worker。如果所有worker都是忙碌，那么建议添加worker设备
+The durability options let the tasks survive even if RabbitMQ is restarted.
+消息持久设置，会同步消息到硬盘上。

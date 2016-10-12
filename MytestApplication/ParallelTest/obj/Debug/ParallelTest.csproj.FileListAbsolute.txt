@@ -1,0 +1,12 @@
+F:\MyC#test\MytestApplication\ParallelTest\bin\Debug\ParallelTest.exe.config
+F:\MyC#test\MytestApplication\ParallelTest\bin\Debug\ParallelTest.exe
+F:\MyC#test\MytestApplication\ParallelTest\bin\Debug\ParallelTest.pdb
+F:\MyC#test\MytestApplication\ParallelTest\obj\Debug\ParallelTest.exe
+F:\MyC#test\MytestApplication\ParallelTest\obj\Debug\ParallelTest.pdb
+F:\MyC#test\MytestApplication\ParallelTest\obj\Debug\ParallelTest.csprojResolveAssemblyReference.cache
+E:\WindowsOld\Other\MyC#test\MytestApplication\ParallelTest\bin\Debug\ParallelTest.exe.config
+E:\WindowsOld\Other\MyC#test\MytestApplication\ParallelTest\obj\Debug\ParallelTest.exe
+E:\WindowsOld\Other\MyC#test\MytestApplication\ParallelTest\obj\Debug\ParallelTest.pdb
+D:\MyC#test\MytestApplication\ParallelTest\bin\Debug\ParallelTest.exe.config
+D:\MyC#test\MytestApplication\ParallelTest\obj\Debug\ParallelTest.exe
+D:\MyC#test\MytestApplication\ParallelTest\obj\Debug\ParallelTest.pdb

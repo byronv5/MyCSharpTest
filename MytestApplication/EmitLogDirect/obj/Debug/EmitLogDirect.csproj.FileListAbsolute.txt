@@ -1,0 +1,7 @@
+F:\MyC#test\MytestApplication\EmitLogDirect\bin\Debug\EmitLogDirect.exe.config
+F:\MyC#test\MytestApplication\EmitLogDirect\bin\Debug\EmitLogDirect.exe
+F:\MyC#test\MytestApplication\EmitLogDirect\bin\Debug\EmitLogDirect.pdb
+F:\MyC#test\MytestApplication\EmitLogDirect\bin\Debug\RabbitMQ.Client.dll
+F:\MyC#test\MytestApplication\EmitLogDirect\bin\Debug\RabbitMQ.Client.xml
+F:\MyC#test\MytestApplication\EmitLogDirect\obj\Debug\EmitLogDirect.exe
+F:\MyC#test\MytestApplication\EmitLogDirect\obj\Debug\EmitLogDirect.pdb

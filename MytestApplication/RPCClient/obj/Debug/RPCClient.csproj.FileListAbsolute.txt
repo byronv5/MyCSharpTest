@@ -1,0 +1,8 @@
+F:\MyC#test\MytestApplication\RPCClient\bin\Debug\RPCClient.exe.config
+F:\MyC#test\MytestApplication\RPCClient\bin\Debug\RPCClient.exe
+F:\MyC#test\MytestApplication\RPCClient\bin\Debug\RPCClient.pdb
+F:\MyC#test\MytestApplication\RPCClient\bin\Debug\RabbitMQ.Client.dll
+F:\MyC#test\MytestApplication\RPCClient\bin\Debug\RabbitMQ.Client.xml
+F:\MyC#test\MytestApplication\RPCClient\obj\Debug\RPCClient.csprojResolveAssemblyReference.cache
+F:\MyC#test\MytestApplication\RPCClient\obj\Debug\RPCClient.exe
+F:\MyC#test\MytestApplication\RPCClient\obj\Debug\RPCClient.pdb

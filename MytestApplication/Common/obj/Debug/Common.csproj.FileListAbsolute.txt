@@ -1,0 +1,7 @@
+F:\MyC#test\MytestApplication\Common\bin\Debug\Common.dll
+F:\MyC#test\MytestApplication\Common\bin\Debug\Common.pdb
+F:\MyC#test\MytestApplication\Common\obj\Debug\Common.dll
+F:\MyC#test\MytestApplication\Common\obj\Debug\Common.pdb
+F:\MyC#test\MytestApplication\Common\bin\Debug\Newtonsoft.Json.dll
+F:\MyC#test\MytestApplication\Common\bin\Debug\log4net.dll
+F:\MyC#test\MytestApplication\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

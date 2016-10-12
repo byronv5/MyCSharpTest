@@ -1,0 +1,8 @@
+F:\MyC#test\MytestApplication\Worker\bin\Debug\Worker.exe.config
+F:\MyC#test\MytestApplication\Worker\bin\Debug\Worker.exe
+F:\MyC#test\MytestApplication\Worker\bin\Debug\Worker.pdb
+F:\MyC#test\MytestApplication\Worker\bin\Debug\RabbitMQ.Client.dll
+F:\MyC#test\MytestApplication\Worker\bin\Debug\RabbitMQ.Client.xml
+F:\MyC#test\MytestApplication\Worker\obj\Debug\Worker.exe
+F:\MyC#test\MytestApplication\Worker\obj\Debug\Worker.pdb
+F:\MyC#test\MytestApplication\Worker\obj\Debug\Worker.csprojResolveAssemblyReference.cache

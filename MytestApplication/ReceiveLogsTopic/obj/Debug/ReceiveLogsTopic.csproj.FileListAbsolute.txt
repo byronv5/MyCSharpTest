@@ -1,0 +1,7 @@
+F:\MyC#test\MytestApplication\ReceiveLogsTopic\bin\Debug\ReceiveLogsTopic.exe.config
+F:\MyC#test\MytestApplication\ReceiveLogsTopic\bin\Debug\ReceiveLogsTopic.exe
+F:\MyC#test\MytestApplication\ReceiveLogsTopic\bin\Debug\ReceiveLogsTopic.pdb
+F:\MyC#test\MytestApplication\ReceiveLogsTopic\bin\Debug\RabbitMQ.Client.dll
+F:\MyC#test\MytestApplication\ReceiveLogsTopic\bin\Debug\RabbitMQ.Client.xml
+F:\MyC#test\MytestApplication\ReceiveLogsTopic\obj\Debug\ReceiveLogsTopic.exe
+F:\MyC#test\MytestApplication\ReceiveLogsTopic\obj\Debug\ReceiveLogsTopic.pdb
