@@ -20,6 +20,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,6 +42,14 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Exceptionless, Version=4.0.1934.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Exceptionless.4.0.1934\lib\net45\Exceptionless.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Exceptionless.Web, Version=4.0.1934.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Exceptionless.Web.4.0.1934\lib\net45\Exceptionless.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Memcached.ClientLibrary">
       <HintPath>..\..\..\Study\MemCached\Memcached.ClientLibrary\bin\Debug\Memcached.ClientLibrary.dll</HintPath>
     </Reference>
@@ -80,6 +89,7 @@
     <Content Include="ajax\BaseAjax.ashx" />
     <Content Include="ajax\GetWxJsApiConfig.ashx" />
     <Content Include="xml\logConfig.xml" />
+    <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\WebTestConfig.pubxml" />
     <Content Include="SignalR\packages.config" />
     <None Include="Web.Debug.config">
