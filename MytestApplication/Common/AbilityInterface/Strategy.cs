@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
 
 namespace Common.AbilityInterface
 {
@@ -13,45 +9,32 @@ namespace Common.AbilityInterface
     [Serializable]
     public abstract class Strategy
     {
+        public Strategy()
+        {
+            RequestDate = DateTime.Now.ToString("yyyyMMddHHmmss");
+        }
         #region 签名模块
         /// <summary>
         /// 能力接口AppCode
         /// </summary>
-        public string AppCode
-        {
-            get { return ConfigurationManager.AppSettings["AppCode"]; }
-        }
+        public string AppCode => ConfigurationManager.AppSettings["AppCode"];
         /// <summary>
         /// 能力接口Key
         /// </summary>
-        private static string Key
-        {
-            get { return ConfigurationManager.AppSettings["Key"]; }
-        }
+        private static string Key => ConfigurationManager.AppSettings["Key"];
         /// <summary>
         /// RequestDate
         /// </summary>
-        public string RequestDate
-        {
-            get { return DateTime.Now.ToString("yyyyMMddHHmmss"); }
-        }
+        public string RequestDate { get; }
         /// <summary>
-        /// 生成验证签名sign
+        /// 签名
         /// </summary>
-        /// <returns></returns>
-        public string Sign
-        {
-            get
-            {
-                string waitSign = "AppCode=" + AppCode + "&SingKey=" + Key + "&Date=" + RequestDate;
-                return Md5.StandardMd5(waitSign);
-            }
-        }
+        public object Sign { get; internal set; }
         #endregion
         /// <summary>
         /// 调用接口响应
         /// </summary>
-        public virtual string GetResponse(Object oj)
+        public virtual string GetResponse(object oj)
         {
             return "";
         }

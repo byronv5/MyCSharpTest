@@ -18,3 +18,6 @@ F:\MyC#test\MemcacheApplication\MemcacheApplication\bin\Debug\Memcached.ClientLi
 F:\MyC#test\MemcacheApplication\MemcacheApplication\bin\Debug\log4net.dll
 F:\MyC#test\MemcacheApplication\MemcacheApplication\bin\Debug\ICSharpCode.SharpZipLib.dll
 F:\MyC#test\MemcacheApplication\MemcacheApplication\bin\Debug\Memcached.ClientLibrary.pdb
+D:\GitHub\Study\MyCsharpTest\MemcacheApplication\MemcacheApplication\bin\Debug\MemcacheApplication.exe.config
+D:\GitHub\Study\MyCsharpTest\MemcacheApplication\MemcacheApplication\obj\Debug\MemcacheApplication.exe
+D:\GitHub\Study\MyCsharpTest\MemcacheApplication\MemcacheApplication\obj\Debug\MemcacheApplication.pdb

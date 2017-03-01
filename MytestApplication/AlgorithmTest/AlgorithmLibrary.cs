@@ -16,14 +16,18 @@ namespace AlgorithmTest
         /// <returns></returns>
         public static List<int> BubbleSort(List<int> list)
         {
+            bool isOrdered = true;//是否有序（假想是有序的）
             for (int i = list.Count - 1; i > 0; i--)//从尾部开始为最大值索引i（当然也可以从头开始，个人喜好）
             {
+                if (i < list.Count - 1 && isOrdered)
+                { break; }//冒泡后没有发生交换则说明有序，直接跳出循环（冒泡排序的优化版本）
                 for (int j = 0; j < i; j++)
                 {
                     if (list[j] > list[j + 1])
                     {
+                        isOrdered = false;
                         int temp = list[j];
-                        list[j] = list[j + 1];//想想看，交换到最后j+1是不是刚好是i呢
+                        list[j] = list[j + 1];//从数组末尾往前填充，比如1-10的排序：...,9,10
                         list[j + 1] = temp;
                     }
                 }
@@ -253,7 +257,7 @@ namespace AlgorithmTest
                     list[j + delta] = temp;
                 }
                 #endregion
-                delta = delta/2;
+                delta = delta / 2;
             }
             return list;
         }
@@ -312,7 +316,7 @@ namespace AlgorithmTest
             #region 从两个区间取出数据，从小到大依次放入临时数组
             //先循环两个区间段都没有结束的情况
             while ((left <= leftEnd) && (rightStart <= right))
-            {                
+            {
                 if (array[left] < array[rightStart])
                     temparray[tempIndex++] = array[left++];
                 else
@@ -334,7 +338,7 @@ namespace AlgorithmTest
                 array[right] = temparray[right];
                 right--;
             }
-        }    
+        }
         #endregion
     }
 }

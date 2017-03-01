@@ -3,3 +3,9 @@ F:\MyC#test\MytestApplication\AlgorithmTest\bin\Debug\AlgorithmTest.exe
 F:\MyC#test\MytestApplication\AlgorithmTest\bin\Debug\AlgorithmTest.pdb
 F:\MyC#test\MytestApplication\AlgorithmTest\obj\Debug\AlgorithmTest.exe
 F:\MyC#test\MytestApplication\AlgorithmTest\obj\Debug\AlgorithmTest.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\bin\Debug\AlgorithmTest.exe.config
+D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\obj\Debug\AlgorithmTest.exe
+D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\obj\Debug\AlgorithmTest.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\bin\Debug\AlgorithmTest.exe
+D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\bin\Debug\AlgorithmTest.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\obj\Debug\AlgorithmTest.csprojResolveAssemblyReference.cache
