@@ -37,3 +37,5 @@ D:\GitHub\Study\MyCsharpTest\MytestApplication\WebTest\bin\Microsoft.Owin.xml
 D:\GitHub\Study\MyCsharpTest\MytestApplication\WebTest\obj\Debug\WebTest.csprojResolveAssemblyReference.cache
 D:\GitHub\Study\MyCsharpTest\MytestApplication\WebTest\obj\Debug\WebTest.dll
 D:\GitHub\Study\MyCsharpTest\MytestApplication\WebTest\obj\Debug\WebTest.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\WebTest\bin\aliyun-net-sdk-core.dll
+D:\GitHub\Study\MyCsharpTest\MytestApplication\WebTest\bin\aliyun-net-sdk-jaq.dll

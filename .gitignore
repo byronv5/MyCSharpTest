@@ -6,3 +6,10 @@ MytestApplication/WebTest/log/20170301.txt
 *.pdb
 *.pdb
 *.pdb
+*.user
+*.pdb
+*.dll
+*.dll
+*.dll
+*.pdb
+*.suo

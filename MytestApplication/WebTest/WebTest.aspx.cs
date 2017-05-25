@@ -3,6 +3,7 @@ using Common.AbilityInterface;
 using Common.AbilityInterface.InterfaceLibrary;
 using Newtonsoft.Json.Linq;
 using Exceptionless;
+using Common;
 
 namespace WebTest
 {
@@ -10,7 +11,8 @@ namespace WebTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string aa = "1qqqq";
+            aa.TooString();            
         }
 
         protected void Btn_test_Click(object sender, EventArgs e)

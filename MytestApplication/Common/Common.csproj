@@ -51,6 +51,7 @@
     <Compile Include="EWordTools.cs" />
     <Compile Include="HttpHelper.cs" />
     <Compile Include="Md5.cs" />
+    <Compile Include="MyExtention.cs" />
     <Compile Include="OperateParam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnionLog.cs" />

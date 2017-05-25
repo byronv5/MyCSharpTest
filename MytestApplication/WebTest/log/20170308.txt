@@ -1,0 +1,8 @@
+====================================================
+日期：2017-03-08 09:37:59,034 线程：[5] 日志类别：INFO  
+[(null)] - Http Post请求链接http://116.228.50.38:8091/api/UserManage/GetLoadAuth；Post Data:{"DeviceNo":"18101767389","Password":"","LoginType":"3","DeviceType":"18","ProvinceId":"35","AppCode":"JFSC","RequestDate":"20170308093758","Sign":"8ccf49ed5c9aff11128792c66224a24e"}
+
+====================================================
+日期：2017-03-08 09:37:59,127 线程：[5] 日志类别：INFO  
+[(null)] - Http Post请求返回:{"AppCode":null,"ResponseDate":null,"Sign":null,"ErrCode":"0011","ErrMsg":"签名验证未通过"}-耗时6毫秒
+

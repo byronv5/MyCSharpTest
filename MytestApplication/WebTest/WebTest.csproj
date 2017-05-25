@@ -42,6 +42,12 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="aliyun-net-sdk-core">
+      <HintPath>..\..\CommonDLL\aliyun-net-sdk-core.dll</HintPath>
+    </Reference>
+    <Reference Include="aliyun-net-sdk-jaq">
+      <HintPath>..\..\CommonDLL\aliyun-net-sdk-jaq.dll</HintPath>
+    </Reference>
     <Reference Include="Exceptionless, Version=4.0.1934.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Exceptionless.4.0.1934\lib\net45\Exceptionless.dll</HintPath>
       <Private>True</Private>
@@ -80,6 +86,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AliyunApi\AliVerify.aspx" />
     <Content Include="EncipherTest.aspx" />
     <Content Include="Memcached\ShareCookieInDomains.aspx" />
     <Content Include="Scripts\WxConfig.js" />
@@ -105,7 +112,9 @@
     <Content Include="Scripts\jquery-1.6.4.min.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ajax\BaseAjax.ashx.cs">
@@ -114,6 +123,14 @@
     <Compile Include="ajax\GetWxJsApiConfig.ashx.cs">
       <DependentUpon>GetWxJsApiConfig.ashx</DependentUpon>
     </Compile>
+    <Compile Include="AliyunApi\AliVerify.aspx.cs">
+      <DependentUpon>AliVerify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AliyunApi\AliVerify.aspx.designer.cs">
+      <DependentUpon>AliVerify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AliyunApi\TestAfsCheck.cs" />
     <Compile Include="EncipherTest.aspx.cs">
       <DependentUpon>EncipherTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
