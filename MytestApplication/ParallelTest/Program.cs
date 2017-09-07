@@ -10,15 +10,40 @@ namespace ParallelTest
     {
         static void Main(string[] args)
         {
-            ParallelDemo pd= new ParallelDemo();
+            #region 并行编程
+            //ParallelDemo pd= new ParallelDemo();
             //pd.ParallelInvokeMethod();
             //pd.ParallelForMethod();
-            pd.ParallelStop();
-            pd.ParallelBreak();
+            //pd.ParallelStop();
+            //pd.ParallelBreak();
+            #endregion
+            #region Task
+            //CancellationTokenSource tokenSource = new CancellationTokenSource();
+            //CancellationToken token = tokenSource.Token;
+            //Console.WriteLine("任务开始执行...");
+            //Task.Factory.StartNew(() =>
+            //{               
+            //    Console.WriteLine("取消任务...");
+            //    Thread.Sleep(5000);
+            //    Console.WriteLine("任务被取消，不应该输出...");
+            //},token);
+            ////Thread.Sleep(4000);//如果在任务执行期间取消任务不会中断
+            //tokenSource.Cancel();//不保证100%取消，有任务执行完了才取消的几率
+            #endregion
+            #region 异步编程
+            //Task tDelay = AsyncDemo.DelayResult();
+            ////tDelay.Wait();//阻塞等待执行完毕
+            ////if (tDelay.IsCompleted)
+            ////    Console.WriteLine("延迟任务执行完毕");
+            //tDelay.ContinueWith(t => Console.WriteLine("延迟任务执行完毕，可以开启之后的任务"));
+            
+            #endregion
             Console.ReadLine();
         }
     }
-
+    /// <summary>
+    /// 并行编程demo类
+    /// </summary>
     public class ParallelDemo
     {
         private readonly Stopwatch _stopWatch = new Stopwatch();
@@ -37,7 +62,7 @@ namespace ParallelTest
 
         #region ParallelInvoke
         /// <summary>
-        /// ParallelInvoke
+        /// ParallelInvoke：并行执行多个委托
         /// </summary>
         public void ParallelInvokeMethod()
         {
@@ -128,5 +153,54 @@ namespace ParallelTest
             Console.WriteLine("Break:Bag count is " + bag.Count + ", " + _stopWatch.ElapsedMilliseconds);
         }
         #endregion
+    }
+    /// <summary>
+    /// 异步编程demo类
+    /// </summary>
+    public class AsyncDemo
+    {
+        /// <summary>
+        /// 延迟执行
+        /// </summary>
+        /// <returns></returns>
+        public static async Task DelayResult()
+        {
+            Console.WriteLine("延迟任务等待执行");
+            await Task.Delay(TimeSpan.FromSeconds(2));
+            Console.WriteLine("任务延迟2s开始执行");
+        }
+        /// <summary>
+        /// 异步方法异常捕获
+        /// </summary>
+        /// <returns></returns>
+        public static async Task<string> Task1()
+        {
+
+            Console.WriteLine("try中task1线程id: " + Thread.CurrentThread.ManagedThreadId);
+            var t1 = await Task.Run(() =>
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("Task1正常执行，此时线程id：" + Thread.CurrentThread.ManagedThreadId);
+                
+                return "task1 is ok";
+            });
+            int.Parse("aa");//引发异常
+            return t1;
+        }
+        /// <summary>
+        /// 异步方法异常捕获
+        /// </summary>
+        /// <returns></returns>
+        public static async Task<string> Task2()
+        {
+            Console.WriteLine("try中task2线程id: " + Thread.CurrentThread.ManagedThreadId);
+            var t2 = await Task.Run(() =>
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("Task2正常执行，此时线程id：" + Thread.CurrentThread.ManagedThreadId);
+                return "task2 is ok";
+            });
+            return t2;
+        }
     }
 }

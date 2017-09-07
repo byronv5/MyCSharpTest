@@ -1,0 +1,5 @@
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Semaphore\bin\Debug\Semaphore.exe
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Semaphore\bin\Debug\Semaphore.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Semaphore\obj\Debug\Semaphore.csprojResolveAssemblyReference.cache
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Semaphore\obj\Debug\Semaphore.exe
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Semaphore\obj\Debug\Semaphore.pdb

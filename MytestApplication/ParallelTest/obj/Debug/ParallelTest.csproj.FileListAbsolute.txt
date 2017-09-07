@@ -13,3 +13,6 @@ D:\MyC#test\MytestApplication\ParallelTest\obj\Debug\ParallelTest.pdb
 D:\GitHub\Study\MyCsharpTest\MytestApplication\ParallelTest\bin\Debug\ParallelTest.exe.config
 D:\GitHub\Study\MyCsharpTest\MytestApplication\ParallelTest\obj\Debug\ParallelTest.exe
 D:\GitHub\Study\MyCsharpTest\MytestApplication\ParallelTest\obj\Debug\ParallelTest.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\ParallelTest\bin\Debug\ParallelTest.exe
+D:\GitHub\Study\MyCsharpTest\MytestApplication\ParallelTest\bin\Debug\ParallelTest.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\ParallelTest\obj\Debug\ParallelTest.csprojResolveAssemblyReference.cache
