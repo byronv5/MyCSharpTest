@@ -1,15 +1,5 @@
 *.dll
 *.pdb
-*.pdb
-MytestApplication/WebTest/log/20170301.txt
-*.pdb
-*.pdb
-*.pdb
-*.pdb
+MytestApplication/WebTest/log/
 *.user
-*.pdb
-*.dll
-*.dll
-*.dll
-*.pdb
 *.suo
