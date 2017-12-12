@@ -8,3 +8,4 @@ D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\obj\Debug\Algorithm
 D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\bin\Debug\AlgorithmTest.exe
 D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\bin\Debug\AlgorithmTest.pdb
 D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\obj\Debug\AlgorithmTest.csprojResolveAssemblyReference.cache
+D:\GitHub\Study\MyCsharpTest\MytestApplication\AlgorithmTest\obj\Debug\AlgorithmTest.csproj.CoreCompileInputs.cache

@@ -47,16 +47,20 @@ namespace AlgorithmTest
         /// <returns></returns>
         private static int DivisionPoint(List<int> list, int left, int right)
         {
-            int baseItem = list[left];//选取数组最左元素作为基准元素,baseItem查找期间永远不归位，until跳出循环
+            /*1.选取数组最左元素baseItem作为分割点；
+              2.分割点在交换期间永远不归位；
+              3.一直到左右指针重合的位置放入分割点
+             */
+            int baseItem = list[left];
             while (left < right)
             {
                 while (left < right && baseItem <= list[right])
                     right--;
-                list[left] = list[right];//baseItem >= list[right]--↓
+                list[left] = list[right];//baseItem > list[right]--↓
 
                 while (left < right && baseItem >= list[left])
                     left++;
-                list[right] = list[left];//baseItem <= list[right]--↑
+                list[right] = list[left];//baseItem < list[right]--↑
             }
             list[left] = baseItem;//left=right
             return left;
@@ -114,13 +118,13 @@ namespace AlgorithmTest
         }
         #endregion
 
-        #region 堆排序：重复构建大根堆，输出最大值
+        #region 堆排序：1.重复构建大根堆-父节点总是大于子节点，反之就是小根堆；2.输出最大值
         /// <summary>
-        /// 调整堆：按深度调整O(logN)，将parent节点调整到正确位置；如果数据结构本身就是被破坏的大根堆，则调用一次即可形成大根堆
+        /// 构建大根堆：按深度调整O(logN)，将parent节点调整到正确位置；如果数据结构本身就是被破坏的大根堆，则调用一次即可形成大根堆
         /// </summary>
         /// <param name="list">待排数组</param>
-        /// <param name="parent">父节点</param>
-        /// <param name="length">数组长度</param>
+        /// <param name="parent">父节点索引</param>
+        /// <param name="length">作用范围</param>
         /// <returns></returns>
         private static List<int> HeapAdjust(List<int> list, int parent, int length)
         {
@@ -143,10 +147,10 @@ namespace AlgorithmTest
                 //将较大子节点的值赋给父亲节点
                 list[parent] = list[child];
 
-                //然后将子节点做为父亲节点，已防止是否破坏根堆时重新构造
+                //然后将子节点做为新的父亲节点
                 parent = child;
 
-                //找到该父亲节点较小的左孩子节点
+                //找到新父亲节点的左孩子节点
                 child = 2 * parent + 1;
             }
             //最后将temp值赋给较大的子节点，以形成两值交换
@@ -158,20 +162,19 @@ namespace AlgorithmTest
         /// 堆排序(重复过程：构造大根堆输出最大值)。时间复杂度O(N*logN)
         /// </summary>
         /// <param name="list">待排数组</param>
-        /// <param name="length">数组长度</param>
         /// <returns></returns>
-        public static List<int> HeapSort(List<int> list, int length)
+        public static List<int> HeapSort(List<int> list)
         {
-            //构建大根堆--list.Count/2-1:就是堆中父节点的个数
+            //遍历父节点构建大根堆：From 0 to list.Count/2-1都是父节点
             for (int i = list.Count / 2 - 1; i >= 0; i--)
             {
                 HeapAdjust(list, i, list.Count);
             }
 
-            //最后输出堆元素
+            //逐个输出堆顶元素
             for (int i = list.Count - 1; i > 0; i--)
             {
-                //堆顶与当前堆的末尾元素进行值对调：其实就是对数组从后往前进行填充
+                //堆顶与当前堆的末尾元素值进行互换
                 int temp = list[0];
                 list[0] = list[i];
                 list[i] = temp;

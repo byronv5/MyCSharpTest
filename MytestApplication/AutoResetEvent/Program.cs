@@ -44,7 +44,7 @@ namespace AutoResetEventSample
             {
                 Console.WriteLine("Press Enter to release another thread.");
                 Console.ReadLine();
-                event_1.Set();//释放信号：和ManualResetEvent不同之处，AutoResetEvent会自动将信号置为不发送
+                event_1.Set();//释放信号：和ManualResetEvent不同之处，AutoResetEvent会自动收回信号（用一次收回一次）
                 Thread.Sleep(250);
             }
 

@@ -1,0 +1,15 @@
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\Quartz.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\Common.Logging.Core.dll
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\Common.Logging.dll
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\Quartz.dll
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\Common.Logging.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\Common.Logging.xml
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\Common.Logging.Core.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\Common.Logging.Core.xml
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\Quartz.xml
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\quartz_jobs.xml
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\QuartzSample.exe
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\QuartzSample.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\obj\Debug\QuartzSample.exe
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\obj\Debug\QuartzSample.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\obj\Debug\QuartzSample.csprojResolveAssemblyReference.cache
