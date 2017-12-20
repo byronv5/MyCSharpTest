@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "437fe70eab14e29867a4e7ab5ef0e6735040b211"
+    "signature": "5e595dc6c6784e274d131296f55855045d42d106"
   },
   "compilationOptions": {
     "defines": [
@@ -9,7 +9,7 @@
       "DEBUG",
       "NETCOREAPP2_0"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.1",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -29,6 +29,7 @@
           "App.Metrics.AspNetCore.Tracking": "2.0.0-alpha",
           "App.Metrics.Extensions.Reporting.InfluxDB": "1.2.0",
           "App.Metrics.Formatters.Json": "2.0.0-alpha",
+          "App.Metrics.Health": "2.0.0-alpha",
           "App.Metrics.Reporting.InfluxDB": "2.0.0-alpha",
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0"
@@ -252,6 +253,73 @@
           "lib/netstandard1.6/App.Metrics.Formatting.InfluxDB.dll": {}
         }
       },
+      "App.Metrics.Health/2.0.0-alpha": {
+        "dependencies": {
+          "App.Metrics.Health.Core": "2.0.0-alpha",
+          "App.Metrics.Health.Formatters.Ascii": "2.0.0-alpha",
+          "App.Metrics.Health.Formatters.Json": "2.0.0-alpha",
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/App.Metrics.Health.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.6/App.Metrics.Health.dll": {}
+        }
+      },
+      "App.Metrics.Health.Abstractions/2.0.0-alpha": {
+        "dependencies": {
+          "LibLog": "4.2.6",
+          "Microsoft.CSharp": "4.4.0",
+          "NETStandard.Library": "2.0.0",
+          "System.Threading.Tasks.Extensions": "4.4.0",
+          "System.ValueTuple": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/App.Metrics.Health.Abstractions.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.6/App.Metrics.Health.Abstractions.dll": {}
+        }
+      },
+      "App.Metrics.Health.Core/2.0.0-alpha": {
+        "dependencies": {
+          "App.Metrics.Health.Abstractions": "2.0.0-alpha",
+          "App.Metrics.Health.Formatters.Ascii": "2.0.0-alpha",
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/App.Metrics.Health.Core.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.6/App.Metrics.Health.Core.dll": {}
+        }
+      },
+      "App.Metrics.Health.Formatters.Ascii/2.0.0-alpha": {
+        "dependencies": {
+          "App.Metrics.Health.Abstractions": "2.0.0-alpha",
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/App.Metrics.Health.Formatters.Ascii.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.6/App.Metrics.Health.Formatters.Ascii.dll": {}
+        }
+      },
+      "App.Metrics.Health.Formatters.Json/2.0.0-alpha": {
+        "dependencies": {
+          "App.Metrics.Health.Abstractions": "2.0.0-alpha",
+          "NETStandard.Library": "2.0.0",
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.6/App.Metrics.Health.Formatters.Json.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.6/App.Metrics.Health.Formatters.Json.dll": {}
+        }
+      },
       "App.Metrics.Reporting.InfluxDB/2.0.0-alpha": {
         "dependencies": {
           "App.Metrics.Abstractions": "2.0.0-alpha",
@@ -265,6 +333,7 @@
           "lib/netstandard1.6/App.Metrics.Reporting.InfluxDB.dll": {}
         }
       },
+      "LibLog/4.2.6": {},
       "Libuv/1.10.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0"
@@ -4309,12 +4378,54 @@
       "path": "app.metrics.formatting.influxdb/1.0.0",
       "hashPath": "app.metrics.formatting.influxdb.1.0.0.nupkg.sha512"
     },
+    "App.Metrics.Health/2.0.0-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CZoLGlR+8bQP7l6SWeOC1kF9nMhCzGNJaWXAGi/AnuWc/WREqpxgDPhO5Qe9ct7xR498GY6sMIHoyjszCA4WBg==",
+      "path": "app.metrics.health/2.0.0-alpha",
+      "hashPath": "app.metrics.health.2.0.0-alpha.nupkg.sha512"
+    },
+    "App.Metrics.Health.Abstractions/2.0.0-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fh21uXnYJ4Yym3xQqEQY70dFgUT638rrXGSejaudwYyXJWLws3/06jdPLf5aph6z4+NZjLnEuKOlSVJ9l2aS4g==",
+      "path": "app.metrics.health.abstractions/2.0.0-alpha",
+      "hashPath": "app.metrics.health.abstractions.2.0.0-alpha.nupkg.sha512"
+    },
+    "App.Metrics.Health.Core/2.0.0-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a9OUA7lurBUmWbPKRZa/BNxLzgdNoErkcImlUBMMreGzuFGop6Wr8RkjN3CbnD33zXKDOkSYSUeKz6qws1s1XA==",
+      "path": "app.metrics.health.core/2.0.0-alpha",
+      "hashPath": "app.metrics.health.core.2.0.0-alpha.nupkg.sha512"
+    },
+    "App.Metrics.Health.Formatters.Ascii/2.0.0-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WITlSgS43nzWigx16opez9xd9HBIblkIVasHCWTQu/pTe6B6ipRFogvHDtgGb/5XtmkrMgI0wai0zUo+vkiZag==",
+      "path": "app.metrics.health.formatters.ascii/2.0.0-alpha",
+      "hashPath": "app.metrics.health.formatters.ascii.2.0.0-alpha.nupkg.sha512"
+    },
+    "App.Metrics.Health.Formatters.Json/2.0.0-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3bAmwS83VdZ3NxpeqSyljW/lna0H4Ws3hlc0Q8WiqdVT/TZ1S9hktDlx+M1MdgCVeiQf57vpYadunImeEKLY0Q==",
+      "path": "app.metrics.health.formatters.json/2.0.0-alpha",
+      "hashPath": "app.metrics.health.formatters.json.2.0.0-alpha.nupkg.sha512"
+    },
     "App.Metrics.Reporting.InfluxDB/2.0.0-alpha": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-+C3UFBD1Zwa9MP0GZhKiaFp2Rj4hyzApLf0UMvxmdBXaNgy7kMnsBD/Bz3cEevvQYu5pGtxyCe2d31SlsZiz+w==",
       "path": "app.metrics.reporting.influxdb/2.0.0-alpha",
       "hashPath": "app.metrics.reporting.influxdb.2.0.0-alpha.nupkg.sha512"
+    },
+    "LibLog/4.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z2pUqnrQhd8ti2jsjLVCVlNC5rqynGZvnZtd5Q1OJ0SCUH7WDYS+2fRJWWkTPBwWjdk0qMJA8GO0CIt6hWcDig==",
+      "path": "liblog/4.2.6",
+      "hashPath": "liblog.4.2.6.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",

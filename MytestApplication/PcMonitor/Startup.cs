@@ -54,6 +54,7 @@ namespace PcMonitor
                 .Build();
 
                 services.AddMetrics(metrics);
+                //services.AddHealthChecks();//注入健康检查
                 services.AddMetricsReportScheduler();
                 services.AddMetricsTrackingMiddleware();
                 services.AddMetricsEndpoints();

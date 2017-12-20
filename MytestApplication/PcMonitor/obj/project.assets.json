@@ -231,6 +231,78 @@
           "lib/netstandard1.6/App.Metrics.Formatting.InfluxDB.dll": {}
         }
       },
+      "App.Metrics.Health/2.0.0-alpha": {
+        "type": "package",
+        "dependencies": {
+          "App.Metrics.Health.Core": "2.0.0-alpha",
+          "App.Metrics.Health.Formatters.Ascii": "2.0.0-alpha",
+          "App.Metrics.Health.Formatters.Json": "2.0.0-alpha",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/App.Metrics.Health.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/App.Metrics.Health.dll": {}
+        }
+      },
+      "App.Metrics.Health.Abstractions/2.0.0-alpha": {
+        "type": "package",
+        "dependencies": {
+          "LibLog": "4.2.6",
+          "Microsoft.CSharp": "4.4.0",
+          "NETStandard.Library": "1.6.1",
+          "System.Threading.Tasks.Extensions": "4.4.0",
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/App.Metrics.Health.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/App.Metrics.Health.Abstractions.dll": {}
+        }
+      },
+      "App.Metrics.Health.Core/2.0.0-alpha": {
+        "type": "package",
+        "dependencies": {
+          "App.Metrics.Health.Abstractions": "2.0.0-alpha",
+          "App.Metrics.Health.Formatters.Ascii": "2.0.0-alpha",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/App.Metrics.Health.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/App.Metrics.Health.Core.dll": {}
+        }
+      },
+      "App.Metrics.Health.Formatters.Ascii/2.0.0-alpha": {
+        "type": "package",
+        "dependencies": {
+          "App.Metrics.Health.Abstractions": "2.0.0-alpha",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/App.Metrics.Health.Formatters.Ascii.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/App.Metrics.Health.Formatters.Ascii.dll": {}
+        }
+      },
+      "App.Metrics.Health.Formatters.Json/2.0.0-alpha": {
+        "type": "package",
+        "dependencies": {
+          "App.Metrics.Health.Abstractions": "2.0.0-alpha",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.6/App.Metrics.Health.Formatters.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/App.Metrics.Health.Formatters.Json.dll": {}
+        }
+      },
       "App.Metrics.Reporting.InfluxDB/2.0.0-alpha": {
         "type": "package",
         "dependencies": {
@@ -244,6 +316,9 @@
         "runtime": {
           "lib/netstandard1.6/App.Metrics.Reporting.InfluxDB.dll": {}
         }
+      },
+      "LibLog/4.2.6": {
+        "type": "package"
       },
       "Libuv/1.10.0": {
         "type": "package",
@@ -5174,6 +5249,71 @@
         "lib/netstandard1.6/App.Metrics.Formatting.InfluxDB.xml"
       ]
     },
+    "App.Metrics.Health/2.0.0-alpha": {
+      "sha512": "CZoLGlR+8bQP7l6SWeOC1kF9nMhCzGNJaWXAGi/AnuWc/WREqpxgDPhO5Qe9ct7xR498GY6sMIHoyjszCA4WBg==",
+      "type": "package",
+      "path": "app.metrics.health/2.0.0-alpha",
+      "files": [
+        "app.metrics.health.2.0.0-alpha.nupkg.sha512",
+        "app.metrics.health.nuspec",
+        "lib/net452/App.Metrics.Health.dll",
+        "lib/net452/App.Metrics.Health.xml",
+        "lib/netstandard1.6/App.Metrics.Health.dll",
+        "lib/netstandard1.6/App.Metrics.Health.xml"
+      ]
+    },
+    "App.Metrics.Health.Abstractions/2.0.0-alpha": {
+      "sha512": "Fh21uXnYJ4Yym3xQqEQY70dFgUT638rrXGSejaudwYyXJWLws3/06jdPLf5aph6z4+NZjLnEuKOlSVJ9l2aS4g==",
+      "type": "package",
+      "path": "app.metrics.health.abstractions/2.0.0-alpha",
+      "files": [
+        "app.metrics.health.abstractions.2.0.0-alpha.nupkg.sha512",
+        "app.metrics.health.abstractions.nuspec",
+        "lib/net452/App.Metrics.Health.Abstractions.dll",
+        "lib/net452/App.Metrics.Health.Abstractions.xml",
+        "lib/netstandard1.6/App.Metrics.Health.Abstractions.dll",
+        "lib/netstandard1.6/App.Metrics.Health.Abstractions.xml"
+      ]
+    },
+    "App.Metrics.Health.Core/2.0.0-alpha": {
+      "sha512": "a9OUA7lurBUmWbPKRZa/BNxLzgdNoErkcImlUBMMreGzuFGop6Wr8RkjN3CbnD33zXKDOkSYSUeKz6qws1s1XA==",
+      "type": "package",
+      "path": "app.metrics.health.core/2.0.0-alpha",
+      "files": [
+        "app.metrics.health.core.2.0.0-alpha.nupkg.sha512",
+        "app.metrics.health.core.nuspec",
+        "lib/net452/App.Metrics.Health.Core.dll",
+        "lib/net452/App.Metrics.Health.Core.xml",
+        "lib/netstandard1.6/App.Metrics.Health.Core.dll",
+        "lib/netstandard1.6/App.Metrics.Health.Core.xml"
+      ]
+    },
+    "App.Metrics.Health.Formatters.Ascii/2.0.0-alpha": {
+      "sha512": "WITlSgS43nzWigx16opez9xd9HBIblkIVasHCWTQu/pTe6B6ipRFogvHDtgGb/5XtmkrMgI0wai0zUo+vkiZag==",
+      "type": "package",
+      "path": "app.metrics.health.formatters.ascii/2.0.0-alpha",
+      "files": [
+        "app.metrics.health.formatters.ascii.2.0.0-alpha.nupkg.sha512",
+        "app.metrics.health.formatters.ascii.nuspec",
+        "lib/net452/App.Metrics.Health.Formatters.Ascii.dll",
+        "lib/net452/App.Metrics.Health.Formatters.Ascii.xml",
+        "lib/netstandard1.6/App.Metrics.Health.Formatters.Ascii.dll",
+        "lib/netstandard1.6/App.Metrics.Health.Formatters.Ascii.xml"
+      ]
+    },
+    "App.Metrics.Health.Formatters.Json/2.0.0-alpha": {
+      "sha512": "3bAmwS83VdZ3NxpeqSyljW/lna0H4Ws3hlc0Q8WiqdVT/TZ1S9hktDlx+M1MdgCVeiQf57vpYadunImeEKLY0Q==",
+      "type": "package",
+      "path": "app.metrics.health.formatters.json/2.0.0-alpha",
+      "files": [
+        "app.metrics.health.formatters.json.2.0.0-alpha.nupkg.sha512",
+        "app.metrics.health.formatters.json.nuspec",
+        "lib/net452/App.Metrics.Health.Formatters.Json.dll",
+        "lib/net452/App.Metrics.Health.Formatters.Json.xml",
+        "lib/netstandard1.6/App.Metrics.Health.Formatters.Json.dll",
+        "lib/netstandard1.6/App.Metrics.Health.Formatters.Json.xml"
+      ]
+    },
     "App.Metrics.Reporting.InfluxDB/2.0.0-alpha": {
       "sha512": "+C3UFBD1Zwa9MP0GZhKiaFp2Rj4hyzApLf0UMvxmdBXaNgy7kMnsBD/Bz3cEevvQYu5pGtxyCe2d31SlsZiz+w==",
       "type": "package",
@@ -5185,6 +5325,16 @@
         "lib/net452/App.Metrics.Reporting.InfluxDB.xml",
         "lib/netstandard1.6/App.Metrics.Reporting.InfluxDB.dll",
         "lib/netstandard1.6/App.Metrics.Reporting.InfluxDB.xml"
+      ]
+    },
+    "LibLog/4.2.6": {
+      "sha512": "z2pUqnrQhd8ti2jsjLVCVlNC5rqynGZvnZtd5Q1OJ0SCUH7WDYS+2fRJWWkTPBwWjdk0qMJA8GO0CIt6hWcDig==",
+      "type": "package",
+      "path": "liblog/4.2.6",
+      "files": [
+        "content/App_Packages/LibLog.4.2/LibLog.cs.pp",
+        "liblog.4.2.6.nupkg.sha512",
+        "liblog.nuspec"
       ]
     },
     "Libuv/1.10.0": {
@@ -12974,6 +13124,7 @@
       "App.Metrics.AspNetCore.Tracking >= 2.0.0-alpha",
       "App.Metrics.Extensions.Reporting.InfluxDB >= 1.2.0",
       "App.Metrics.Formatters.Json >= 2.0.0-alpha",
+      "App.Metrics.Health >= 2.0.0-alpha",
       "App.Metrics.Reporting.InfluxDB >= 2.0.0-alpha",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
@@ -13023,6 +13174,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "App.Metrics.Health": {
+            "target": "Package",
+            "version": "2.0.0-alpha"
+          },
           "App.Metrics.AspNetCore.Tracking": {
             "target": "Package",
             "version": "2.0.0-alpha"
