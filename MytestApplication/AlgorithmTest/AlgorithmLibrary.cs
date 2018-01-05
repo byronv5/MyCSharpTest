@@ -47,7 +47,8 @@ namespace AlgorithmTest
         /// <returns></returns>
         private static int DivisionPoint(List<int> list, int left, int right)
         {
-            /*1.选取数组最左元素baseItem作为分割点；
+            /*
+              1.每次选取list[left]作为分割点baseItem；
               2.分割点在交换期间永远不归位；
               3.一直到左右指针重合的位置放入分割点
              */

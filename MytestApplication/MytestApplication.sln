@@ -103,7 +103,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzSample", "Quartz\Quar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppMetricsDemo", "AppMetricsDemo", "{23209825-45E4-4FA9-9058-11D0DF48A60C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcMonitor", "PcMonitor\PcMonitor.csproj", "{D8313380-A9B5-48BF-86FC-23D38EE0F8BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PcMonitor", "PcMonitor\PcMonitor.csproj", "{D8313380-A9B5-48BF-86FC-23D38EE0F8BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

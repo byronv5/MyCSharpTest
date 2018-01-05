@@ -21,16 +21,16 @@ namespace SocketServer
             newsock.Bind(ipep);//绑定
             newsock.Listen(10);//监听
             Console.WriteLine("waiting for a client...");
-            Socket client = newsock.Accept();//当有可用的客户端连接尝试时执行，并返回一个新的socket,用于与客户端之间的通信
-            IPEndPoint clientip = (IPEndPoint)client.RemoteEndPoint;
+            Socket server = newsock.Accept();//阻塞等待客户端连接
+            IPEndPoint clientip = (IPEndPoint)server.RemoteEndPoint;
             Console.WriteLine("connect with client :" + clientip.Address + " at port: " + clientip.Port);
             const string welcome = "Successfully connect,welcome here!";//客户端连接成功的提示信息
             byte[] data = Encoding.UTF8.GetBytes(welcome);
-            client.Send(data, data.Length, SocketFlags.None);//发送信息
+            server.Send(data, data.Length, SocketFlags.None);//发送信息
             while (true)
             {//用死循环来不断的从客户端获取信息
                 data = new byte[1024];
-                int recv = client.Receive(data);//用于表示客户端发送的信息长度
+                int recv = server.Receive(data);//用于表示客户端发送的信息长度
                 string recvMsg = Encoding.UTF8.GetString(data, 0, recv);
                 Console.WriteLine(DateTime.Now + "客户端：" + recvMsg);
                 if (recv == 0) //当信息长度为0，说明客户端连接断开
@@ -40,9 +40,9 @@ namespace SocketServer
                 if (input != null) data = Encoding.UTF8.GetBytes(input);
                 else//不输入则断开连接
                     break;
-                client.Send(data, SocketFlags.None);
+                server.Send(data, SocketFlags.None);
             }
-            client.Close();
+            server.Close();
             newsock.Close();
             Console.WriteLine("Disconnected from " + clientip.Address);
             Console.ReadLine();

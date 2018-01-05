@@ -16,7 +16,7 @@ namespace SocketClient
             // TODO: 在此处添加代码以启动应用程序
             //
             byte[] data = new byte[1024];
-            Socket newclient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             Console.Write("please input the server ip: ");//输入服务器ip
             string ipadd = Console.ReadLine();
             Console.WriteLine();
@@ -28,7 +28,7 @@ namespace SocketClient
                 try
                 {
                     //因为客户端只是用来向特定的服务器发送信息，所以不需要绑定本机的IP和端口。不需要监听。
-                    newclient.Connect(ie);
+                    client.Connect(ie);
                 }
                 catch (SocketException e)
                 {
@@ -38,7 +38,7 @@ namespace SocketClient
                     return;
                 }
             }
-            int recv = newclient.Receive(data);
+            int recv = client.Receive(data);
             string stringdata = Encoding.UTF8.GetString(data, 0, recv);
             Console.WriteLine(stringdata);
             while (true)
@@ -47,15 +47,15 @@ namespace SocketClient
                 string input = Console.ReadLine();
                 if (input == "exit")//输入exit则断开连接
                     break;
-                if (input != null) newclient.Send(Encoding.UTF8.GetBytes(input));
+                if (input != null) client.Send(Encoding.UTF8.GetBytes(input));
                 data = new byte[1024];
-                recv = newclient.Receive(data);
+                recv = client.Receive(data);
                 stringdata = Encoding.UTF8.GetString(data, 0, recv);
                 Console.WriteLine(DateTime.Now + "服务端：" + stringdata); //输出服务器的响应的消息
             }
             Console.WriteLine("disconnect from server");
-            newclient.Shutdown(SocketShutdown.Both);
-            newclient.Close();
+            client.Shutdown(SocketShutdown.Both);
+            client.Close();
             Console.ReadLine();
         }
     }

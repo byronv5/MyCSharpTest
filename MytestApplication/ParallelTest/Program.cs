@@ -31,12 +31,14 @@ namespace ParallelTest
             //tokenSource.Cancel();//不保证100%取消，有任务执行完了才取消的几率
             #endregion
             #region 异步编程
-            //Task tDelay = AsyncDemo.DelayResult();
-            ////tDelay.Wait();//阻塞等待执行完毕
-            ////if (tDelay.IsCompleted)
-            ////    Console.WriteLine("延迟任务执行完毕");
-            //tDelay.ContinueWith(t => Console.WriteLine("延迟任务执行完毕，可以开启之后的任务"));
-            
+            Console.WriteLine("主线程准备调用异步方法");
+            Task tDelay = AsyncDemo.Task1();
+            Console.WriteLine("主线程调用异步方法完毕");
+            //tDelay.Wait();//阻塞等待执行完毕
+            //if (tDelay.IsCompleted)
+            //    Console.WriteLine("延迟任务执行完毕");
+            tDelay.ContinueWith(t => Console.WriteLine("延迟任务执行完毕，可以开启之后的任务"));
+
             #endregion
             Console.ReadLine();
         }
@@ -165,8 +167,8 @@ namespace ParallelTest
         /// <returns></returns>
         public static async Task DelayResult()
         {
-            Console.WriteLine("延迟任务等待执行");
-            await Task.Delay(TimeSpan.FromSeconds(2));
+            Console.WriteLine("延迟任务等待执行");//属于主线程
+            await Task.Delay(TimeSpan.FromSeconds(2));//此处直接返回不影响主线程执行
             Console.WriteLine("任务延迟2s开始执行");
         }
         /// <summary>
@@ -175,17 +177,25 @@ namespace ParallelTest
         /// <returns></returns>
         public static async Task<string> Task1()
         {
-
-            Console.WriteLine("try中task1线程id: " + Thread.CurrentThread.ManagedThreadId);
-            var t1 = await Task.Run(() =>
+            try
             {
-                Thread.Sleep(1000);
-                Console.WriteLine("Task1正常执行，此时线程id：" + Thread.CurrentThread.ManagedThreadId);
+                Console.WriteLine("try中task1线程id: " + Thread.CurrentThread.ManagedThreadId);
                 
-                return "task1 is ok";
-            });
-            int.Parse("aa");//引发异常
-            return t1;
+                var t1 = await Task.Run(() =>
+                {
+                    Thread.Sleep(1000);
+                    Console.WriteLine("Task1正常执行，此时线程id：" + Thread.CurrentThread.ManagedThreadId);
+
+                    return "task1 is ok";
+                });
+                int.Parse("aa");//引发异常，和task1隶属同一个线程
+                return t1;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("catch中线程id: " + Thread.CurrentThread.ManagedThreadId);//捕获异常，和引发异常处属于同一个线程
+            }
+            return "";       
         }
         /// <summary>
         /// 异步方法异常捕获
