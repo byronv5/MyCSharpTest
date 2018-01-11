@@ -21,7 +21,8 @@ namespace NewTask
                 //At this point we're sure that the task_queue queue won't be lost even if RabbitMQ restarts. Now we need to mark our messages as persistent - by setting IBasicProperties.SetPersistent to true.
                 var properties = channel.CreateBasicProperties();
                 //properties.SetPersistent(true);//翻译结果--此方法已经过时:“这种设置方法已经被摒弃，现在使用持久化属性取代它”
-                properties.Persistent = true;
+                properties.Persistent = true;//取代上面的写法
+                //properties.DeliveryMode = 2;//也可以这么写
 
                 var message = GetMessage(args);
                 var body = Encoding.UTF8.GetBytes(message);

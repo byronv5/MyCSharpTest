@@ -6,3 +6,12 @@ F:\MyC#test\MytestApplication\Send\bin\Debug\RabbitMQ.Client.xml
 F:\MyC#test\MytestApplication\Send\obj\Debug\Send.exe
 F:\MyC#test\MytestApplication\Send\obj\Debug\Send.pdb
 F:\MyC#test\MytestApplication\Send\obj\Debug\Send.csprojResolveAssemblyReference.cache
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Send\bin\Debug\Send.exe.config
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Send\bin\Debug\Send.exe
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Send\bin\Debug\Send.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Send\bin\Debug\RabbitMQ.Client.dll
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Send\bin\Debug\RabbitMQ.Client.xml
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Send\obj\Debug\Send.csproj.CoreCompileInputs.cache
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Send\obj\Debug\Send.exe
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Send\obj\Debug\Send.pdb
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Send\obj\Debug\Send.csprojResolveAssemblyReference.cache
