@@ -13,3 +13,4 @@ D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\bin\Debug\QuartzSample.pdb
 D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\obj\Debug\QuartzSample.exe
 D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\obj\Debug\QuartzSample.pdb
 D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\obj\Debug\QuartzSample.csprojResolveAssemblyReference.cache
+D:\GitHub\Study\MyCsharpTest\MytestApplication\Quartz\obj\Debug\QuartzSample.csproj.CoreCompileInputs.cache
