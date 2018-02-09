@@ -51,7 +51,7 @@ namespace SemaphoreSample
             // up to three at a time.
             // 主线程开始占有所有的信号量
             // 调用Release(3)释放全部信号量
-            // 等待的线程此时既可以获取信号执行
+            // 等待的线程此时即可以获取信号执行
             Console.WriteLine("Main thread calls Release(3).");
             _pool.Release(3);
 
