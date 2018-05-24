@@ -13131,34 +13131,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\baixiaolong\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\Study\\MyCsharpTest\\MytestApplication\\PcMonitor\\PcMonitor.csproj",
+      "projectUniqueName": "C:\\study\\MyCsharpTest\\MytestApplication\\PcMonitor\\PcMonitor.csproj",
       "projectName": "PcMonitor",
-      "projectPath": "D:\\GitHub\\Study\\MyCsharpTest\\MytestApplication\\PcMonitor\\PcMonitor.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\Study\\MyCsharpTest\\MytestApplication\\PcMonitor\\obj\\",
+      "projectPath": "C:\\study\\MyCsharpTest\\MytestApplication\\PcMonitor\\PcMonitor.csproj",
+      "packagesPath": "C:\\Users\\baixiaolong\\.nuget\\packages\\",
+      "outputPath": "C:\\study\\MyCsharpTest\\MytestApplication\\PcMonitor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\baixiaolong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.tuhu.cn/nuget": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -13174,46 +13175,46 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "App.Metrics.Health": {
-            "target": "Package",
-            "version": "2.0.0-alpha"
-          },
-          "App.Metrics.AspNetCore.Tracking": {
-            "target": "Package",
-            "version": "2.0.0-alpha"
-          },
           "App.Metrics": {
             "target": "Package",
-            "version": "2.0.0-alpha"
-          },
-          "App.Metrics.Extensions.Reporting.InfluxDB": {
-            "target": "Package",
-            "version": "1.2.0"
-          },
-          "App.Metrics.AspNetCore.Reporting": {
-            "target": "Package",
-            "version": "2.0.0-alpha"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
-          },
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0-alpha, )"
           },
           "App.Metrics.AspNetCore.Endpoints": {
             "target": "Package",
-            "version": "2.0.0-alpha"
+            "version": "[2.0.0-alpha, )"
           },
-          "App.Metrics.Reporting.InfluxDB": {
+          "App.Metrics.AspNetCore.Reporting": {
             "target": "Package",
-            "version": "2.0.0-alpha"
+            "version": "[2.0.0-alpha, )"
+          },
+          "App.Metrics.AspNetCore.Tracking": {
+            "target": "Package",
+            "version": "[2.0.0-alpha, )"
+          },
+          "App.Metrics.Extensions.Reporting.InfluxDB": {
+            "target": "Package",
+            "version": "[1.2.0, )"
           },
           "App.Metrics.Formatters.Json": {
             "target": "Package",
-            "version": "2.0.0-alpha"
+            "version": "[2.0.0-alpha, )"
+          },
+          "App.Metrics.Health": {
+            "target": "Package",
+            "version": "[2.0.0-alpha, )"
+          },
+          "App.Metrics.Reporting.InfluxDB": {
+            "target": "Package",
+            "version": "[2.0.0-alpha, )"
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [

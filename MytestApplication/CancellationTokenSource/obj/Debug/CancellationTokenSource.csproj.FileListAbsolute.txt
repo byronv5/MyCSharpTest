@@ -1,0 +1,7 @@
+C:\study\MyCsharpTest\MytestApplication\CancellationTokenSource\bin\Debug\CancellationTokenSource.exe.config
+C:\study\MyCsharpTest\MytestApplication\CancellationTokenSource\bin\Debug\CancellationTokenSource.exe
+C:\study\MyCsharpTest\MytestApplication\CancellationTokenSource\bin\Debug\CancellationTokenSource.pdb
+C:\study\MyCsharpTest\MytestApplication\CancellationTokenSource\obj\Debug\CancellationTokenSource.csprojResolveAssemblyReference.cache
+C:\study\MyCsharpTest\MytestApplication\CancellationTokenSource\obj\Debug\CancellationTokenSource.csproj.CoreCompileInputs.cache
+C:\study\MyCsharpTest\MytestApplication\CancellationTokenSource\obj\Debug\CancellationTokenSource.exe
+C:\study\MyCsharpTest\MytestApplication\CancellationTokenSource\obj\Debug\CancellationTokenSource.pdb

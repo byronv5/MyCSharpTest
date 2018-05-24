@@ -17,19 +17,7 @@ namespace ParallelTest
             //pd.ParallelStop();
             //pd.ParallelBreak();
             #endregion
-            #region Task
-            //CancellationTokenSource tokenSource = new CancellationTokenSource();
-            //CancellationToken token = tokenSource.Token;
-            //Console.WriteLine("任务开始执行...");
-            //Task.Factory.StartNew(() =>
-            //{               
-            //    Console.WriteLine("取消任务...");
-            //    Thread.Sleep(5000);
-            //    Console.WriteLine("任务被取消，不应该输出...");
-            //},token);
-            ////Thread.Sleep(4000);//如果在任务执行期间取消任务不会中断
-            //tokenSource.Cancel();//不保证100%取消，有任务执行完了才取消的几率
-            #endregion
+            
             #region 异步编程
             Console.WriteLine("主线程准备调用异步方法");
             Task tDelay = AsyncDemo.Task1();
