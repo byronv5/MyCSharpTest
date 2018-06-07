@@ -3,3 +3,6 @@
 MytestApplication/WebTest/log/
 *.user
 *.suo
+/MytestApplication/Decorator/obj/Debug
+/MytestApplication/Decorator/bin/Debug
+/MytestApplication/.vs/MytestApplication/v15

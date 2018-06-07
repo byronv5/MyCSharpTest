@@ -28,7 +28,7 @@ namespace CancellationTokenSourceSample
 
             Task.Factory.StartNew(() =>
             {
-                while (!ct.IsCancellationRequested)
+                while (!ct.IsCancellationRequested)//意味着如果IsCancellationRequested=false则存在重复调用
                 {
                     Thread.Sleep(2000);
                     Console.WriteLine("Task has finished");

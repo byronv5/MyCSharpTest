@@ -107,6 +107,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PcMonitor", "PcMonitor\PcMo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenSource", "CancellationTokenSource\CancellationTokenSource.csproj", "{2C32C998-9F69-444E-980A-CF4250BB4B22}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattern", "DesignPattern", "{18046992-4C27-4A5F-B978-35F8D133E236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{084F8EC8-4DDE-42B9-B438-6B6ACF2990C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +241,10 @@ Global
 		{2C32C998-9F69-444E-980A-CF4250BB4B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C32C998-9F69-444E-980A-CF4250BB4B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C32C998-9F69-444E-980A-CF4250BB4B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084F8EC8-4DDE-42B9-B438-6B6ACF2990C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084F8EC8-4DDE-42B9-B438-6B6ACF2990C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084F8EC8-4DDE-42B9-B438-6B6ACF2990C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084F8EC8-4DDE-42B9-B438-6B6ACF2990C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -276,6 +284,7 @@ Global
 		{36C93A17-5668-46F5-8B84-6473A07CF4FD} = {9DBAE79A-11D2-459B-A5BC-B588DBD25779}
 		{D8313380-A9B5-48BF-86FC-23D38EE0F8BC} = {23209825-45E4-4FA9-9058-11D0DF48A60C}
 		{2C32C998-9F69-444E-980A-CF4250BB4B22} = {6D3C86A5-67BE-44BF-B440-65118B14AE60}
+		{084F8EC8-4DDE-42B9-B438-6B6ACF2990C1} = {18046992-4C27-4A5F-B978-35F8D133E236}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE8C2BFD-B6FF-4D0D-A564-77425D85C708}
