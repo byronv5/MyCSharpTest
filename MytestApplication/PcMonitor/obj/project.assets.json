@@ -13132,26 +13132,23 @@
   },
   "packageFolders": {
     "C:\\Users\\baixiaolong\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\study\\MyCsharpTest\\MytestApplication\\PcMonitor\\PcMonitor.csproj",
+      "projectUniqueName": "D:\\study\\MyCsharpTest\\MytestApplication\\PcMonitor\\PcMonitor.csproj",
       "projectName": "PcMonitor",
-      "projectPath": "C:\\study\\MyCsharpTest\\MytestApplication\\PcMonitor\\PcMonitor.csproj",
+      "projectPath": "D:\\study\\MyCsharpTest\\MytestApplication\\PcMonitor\\PcMonitor.csproj",
       "packagesPath": "C:\\Users\\baixiaolong\\.nuget\\packages\\",
-      "outputPath": "C:\\study\\MyCsharpTest\\MytestApplication\\PcMonitor\\obj\\",
+      "outputPath": "D:\\study\\MyCsharpTest\\MytestApplication\\PcMonitor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\baixiaolong\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

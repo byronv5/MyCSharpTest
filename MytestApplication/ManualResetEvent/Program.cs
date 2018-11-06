@@ -26,7 +26,7 @@ namespace ManualResetEventSample
                               "\nto release all the threads.\n");
             Console.ReadLine();
 
-            mre.Set();//释放信号：后边的线程调用WaitOne不会阻塞，除非调用Reset收回信号
+            mre.Set();//释放信号：后边的线程调用WaitOne不会阻塞，除非调用Reset收回信号。这就是和AutoResetEvent最大的差别
 
             Thread.Sleep(500);
             Console.WriteLine("\nWhen a ManualResetEvent is signaled, threads that call WaitOne()" +
