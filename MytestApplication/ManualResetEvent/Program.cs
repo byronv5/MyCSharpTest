@@ -26,15 +26,17 @@ namespace ManualResetEventSample
                               "\nto release all the threads.\n");
             Console.ReadLine();
 
-            mre.Set();//释放信号：后边的线程调用WaitOne不会阻塞，除非调用Reset收回信号。这就是和AutoResetEvent最大的差别
+            //释放信号：后边的线程调用WaitOne不会阻塞，除非调用Reset收回信号。这就是和AutoResetEvent最大的差别
+            mre.Set();
 
             Thread.Sleep(500);
             Console.WriteLine("\nWhen a ManualResetEvent is signaled, threads that call WaitOne()" +
-                              "\ndo not block. Press Enter to show this.\n");//线程3和4调用WaitOne不会阻塞
+                              "\ndo not block. Press Enter to show this.\n");
             Console.ReadLine();
 
             for (int i = 3; i <= 4; i++)
             {
+                //线程3和4调用WaitOne不会阻塞
                 Thread t = new Thread(ThreadProc);
                 t.Name = "Thread_" + i;
                 t.Start();
@@ -42,9 +44,10 @@ namespace ManualResetEventSample
 
             Thread.Sleep(500);
             Console.WriteLine("\nPress Enter to call Reset(), so that threads once again block" +
-                              "\nwhen they call WaitOne().\n");//调用Reset方法回收信号，则之后的线程调用WaitOne会阻塞
+                              "\nwhen they call WaitOne().\n");
             Console.ReadLine();
 
+            //调用Reset方法回收信号，则之后的线程调用WaitOne会阻塞
             mre.Reset();
 
             // Start a thread that waits on the ManualResetEvent.
