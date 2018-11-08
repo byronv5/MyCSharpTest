@@ -1,5 +1,0 @@
-D:\GitHub\Study\MyCsharpTest\MytestApplication\AutoResetEvent\bin\Debug\AutoResetEvent.exe
-D:\GitHub\Study\MyCsharpTest\MytestApplication\AutoResetEvent\bin\Debug\AutoResetEvent.pdb
-D:\GitHub\Study\MyCsharpTest\MytestApplication\AutoResetEvent\obj\Debug\AutoResetEvent.csprojResolveAssemblyReference.cache
-D:\GitHub\Study\MyCsharpTest\MytestApplication\AutoResetEvent\obj\Debug\AutoResetEvent.exe
-D:\GitHub\Study\MyCsharpTest\MytestApplication\AutoResetEvent\obj\Debug\AutoResetEvent.pdb

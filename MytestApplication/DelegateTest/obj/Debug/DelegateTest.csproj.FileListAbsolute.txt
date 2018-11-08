@@ -1,5 +1,0 @@
-F:\MyC#test\MytestApplication\DelegateTest\bin\Debug\DelegateTest.exe
-F:\MyC#test\MytestApplication\DelegateTest\bin\Debug\DelegateTest.pdb
-F:\MyC#test\MytestApplication\DelegateTest\obj\Debug\DelegateTest.csprojResolveAssemblyReference.cache
-F:\MyC#test\MytestApplication\DelegateTest\obj\Debug\DelegateTest.exe
-F:\MyC#test\MytestApplication\DelegateTest\obj\Debug\DelegateTest.pdb

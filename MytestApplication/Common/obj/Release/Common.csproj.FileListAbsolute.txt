@@ -1,7 +1,0 @@
-F:\MyC#test\MytestApplication\Common\bin\Release\Common.dll
-F:\MyC#test\MytestApplication\Common\bin\Release\Common.pdb
-F:\MyC#test\MytestApplication\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
-F:\MyC#test\MytestApplication\Common\obj\Release\Common.dll
-F:\MyC#test\MytestApplication\Common\obj\Release\Common.pdb
-F:\MyC#test\MytestApplication\Common\bin\Release\log4net.dll
-F:\MyC#test\MytestApplication\Common\bin\Release\Newtonsoft.Json.dll

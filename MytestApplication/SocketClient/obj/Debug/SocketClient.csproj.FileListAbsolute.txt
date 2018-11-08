@@ -1,5 +1,0 @@
-F:\MyC#test\MytestApplication\SocketClient\bin\Debug\SocketClient.exe.config
-F:\MyC#test\MytestApplication\SocketClient\bin\Debug\SocketClient.exe
-F:\MyC#test\MytestApplication\SocketClient\bin\Debug\SocketClient.pdb
-F:\MyC#test\MytestApplication\SocketClient\obj\Debug\SocketClient.exe
-F:\MyC#test\MytestApplication\SocketClient\obj\Debug\SocketClient.pdb

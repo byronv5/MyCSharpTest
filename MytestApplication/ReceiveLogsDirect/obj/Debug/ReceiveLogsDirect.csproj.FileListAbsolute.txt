@@ -1,7 +1,0 @@
-F:\MyC#test\MytestApplication\ReceiveLogsDirect\bin\Debug\ReceiveLogsDirect.exe.config
-F:\MyC#test\MytestApplication\ReceiveLogsDirect\bin\Debug\ReceiveLogsDirect.exe
-F:\MyC#test\MytestApplication\ReceiveLogsDirect\bin\Debug\ReceiveLogsDirect.pdb
-F:\MyC#test\MytestApplication\ReceiveLogsDirect\bin\Debug\RabbitMQ.Client.dll
-F:\MyC#test\MytestApplication\ReceiveLogsDirect\bin\Debug\RabbitMQ.Client.xml
-F:\MyC#test\MytestApplication\ReceiveLogsDirect\obj\Debug\ReceiveLogsDirect.exe
-F:\MyC#test\MytestApplication\ReceiveLogsDirect\obj\Debug\ReceiveLogsDirect.pdb

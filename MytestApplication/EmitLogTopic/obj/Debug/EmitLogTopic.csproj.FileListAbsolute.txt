@@ -1,7 +1,0 @@
-F:\MyC#test\MytestApplication\EmitLogTopic\bin\Debug\EmitLogTopic.exe.config
-F:\MyC#test\MytestApplication\EmitLogTopic\bin\Debug\EmitLogTopic.exe
-F:\MyC#test\MytestApplication\EmitLogTopic\bin\Debug\EmitLogTopic.pdb
-F:\MyC#test\MytestApplication\EmitLogTopic\bin\Debug\RabbitMQ.Client.dll
-F:\MyC#test\MytestApplication\EmitLogTopic\bin\Debug\RabbitMQ.Client.xml
-F:\MyC#test\MytestApplication\EmitLogTopic\obj\Debug\EmitLogTopic.exe
-F:\MyC#test\MytestApplication\EmitLogTopic\obj\Debug\EmitLogTopic.pdb

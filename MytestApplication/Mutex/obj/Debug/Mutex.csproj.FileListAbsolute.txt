@@ -1,5 +1,0 @@
-D:\GitHub\Study\MyCsharpTest\MytestApplication\Mutex\bin\Debug\Mutex.exe
-D:\GitHub\Study\MyCsharpTest\MytestApplication\Mutex\bin\Debug\Mutex.pdb
-D:\GitHub\Study\MyCsharpTest\MytestApplication\Mutex\obj\Debug\Mutex.csprojResolveAssemblyReference.cache
-D:\GitHub\Study\MyCsharpTest\MytestApplication\Mutex\obj\Debug\Mutex.exe
-D:\GitHub\Study\MyCsharpTest\MytestApplication\Mutex\obj\Debug\Mutex.pdb

@@ -1,7 +1,0 @@
-F:\MyC#test\MytestApplication\RPCServer\bin\Debug\RPCServer.exe.config
-F:\MyC#test\MytestApplication\RPCServer\bin\Debug\RPCServer.exe
-F:\MyC#test\MytestApplication\RPCServer\bin\Debug\RPCServer.pdb
-F:\MyC#test\MytestApplication\RPCServer\bin\Debug\RabbitMQ.Client.dll
-F:\MyC#test\MytestApplication\RPCServer\bin\Debug\RabbitMQ.Client.xml
-F:\MyC#test\MytestApplication\RPCServer\obj\Debug\RPCServer.exe
-F:\MyC#test\MytestApplication\RPCServer\obj\Debug\RPCServer.pdb

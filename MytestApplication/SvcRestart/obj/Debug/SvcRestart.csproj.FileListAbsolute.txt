@@ -1,8 +1,0 @@
-D:\GitHub\Study\MyCsharpTest\MytestApplication\SvcRestart\bin\Debug\SvcRestart.exe
-D:\GitHub\Study\MyCsharpTest\MytestApplication\SvcRestart\bin\Debug\SvcRestart.pdb
-D:\GitHub\Study\MyCsharpTest\MytestApplication\SvcRestart\obj\Debug\SvcRestart.csprojResolveAssemblyReference.cache
-D:\GitHub\Study\MyCsharpTest\MytestApplication\SvcRestart\obj\Debug\SvcRestart.Form1.resources
-D:\GitHub\Study\MyCsharpTest\MytestApplication\SvcRestart\obj\Debug\SvcRestart.Properties.Resources.resources
-D:\GitHub\Study\MyCsharpTest\MytestApplication\SvcRestart\obj\Debug\SvcRestart.csproj.GenerateResource.Cache
-D:\GitHub\Study\MyCsharpTest\MytestApplication\SvcRestart\obj\Debug\SvcRestart.exe
-D:\GitHub\Study\MyCsharpTest\MytestApplication\SvcRestart\obj\Debug\SvcRestart.pdb

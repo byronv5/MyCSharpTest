@@ -1,8 +1,0 @@
-F:\MyC#test\MytestApplication\ReceiveLogs\bin\Debug\ReceiveLogs.exe.config
-F:\MyC#test\MytestApplication\ReceiveLogs\bin\Debug\ReceiveLogs.exe
-F:\MyC#test\MytestApplication\ReceiveLogs\bin\Debug\ReceiveLogs.pdb
-F:\MyC#test\MytestApplication\ReceiveLogs\bin\Debug\RabbitMQ.Client.dll
-F:\MyC#test\MytestApplication\ReceiveLogs\bin\Debug\RabbitMQ.Client.xml
-F:\MyC#test\MytestApplication\ReceiveLogs\obj\Debug\ReceiveLogs.csprojResolveAssemblyReference.cache
-F:\MyC#test\MytestApplication\ReceiveLogs\obj\Debug\ReceiveLogs.exe
-F:\MyC#test\MytestApplication\ReceiveLogs\obj\Debug\ReceiveLogs.pdb
