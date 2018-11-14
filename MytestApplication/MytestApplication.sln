@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMBussiness", "WMBussiness\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowDevil", "ShowDevil\ShowDevil.csproj", "{5497F4EB-9B3A-4098-9425-9F3054A8A103}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{2C806258-D42C-4CA6-B21A-5A10F8C9ADB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -271,6 +273,10 @@ Global
 		{5497F4EB-9B3A-4098-9425-9F3054A8A103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5497F4EB-9B3A-4098-9425-9F3054A8A103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5497F4EB-9B3A-4098-9425-9F3054A8A103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C806258-D42C-4CA6-B21A-5A10F8C9ADB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C806258-D42C-4CA6-B21A-5A10F8C9ADB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C806258-D42C-4CA6-B21A-5A10F8C9ADB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C806258-D42C-4CA6-B21A-5A10F8C9ADB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -315,6 +321,7 @@ Global
 		{3C823284-A43B-4F0A-B8FA-BBA58D42EBB0} = {CD930242-732A-48F2-BFB6-F7F477AF2EE4}
 		{47DF2C96-812B-4A70-A0FC-0BBB0F6EF8C6} = {CD930242-732A-48F2-BFB6-F7F477AF2EE4}
 		{5497F4EB-9B3A-4098-9425-9F3054A8A103} = {CD930242-732A-48F2-BFB6-F7F477AF2EE4}
+		{2C806258-D42C-4CA6-B21A-5A10F8C9ADB3} = {18046992-4C27-4A5F-B978-35F8D133E236}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE8C2BFD-B6FF-4D0D-A564-77425D85C708}
