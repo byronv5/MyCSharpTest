@@ -30,6 +30,7 @@ namespace Builder
             var bmwCar = bmwBuilder.BuildCar();
             bmwCar.Run();
 
+            //思考：启动顺序可以再包装一层？导演类
             Console.ReadKey();
         }
     }

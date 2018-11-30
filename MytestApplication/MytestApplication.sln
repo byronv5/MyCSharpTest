@@ -129,7 +129,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{6846DB78-4883-4C1B-B81F-FCBA2F4CC565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{3B80282F-69C8-4B9F-A7B8-557EB0DD4755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{3B80282F-69C8-4B9F-A7B8-557EB0DD4755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{FA50CBD3-DF8B-4674-9D9B-A0A409297C88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -301,6 +303,10 @@ Global
 		{3B80282F-69C8-4B9F-A7B8-557EB0DD4755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B80282F-69C8-4B9F-A7B8-557EB0DD4755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B80282F-69C8-4B9F-A7B8-557EB0DD4755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA50CBD3-DF8B-4674-9D9B-A0A409297C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA50CBD3-DF8B-4674-9D9B-A0A409297C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA50CBD3-DF8B-4674-9D9B-A0A409297C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA50CBD3-DF8B-4674-9D9B-A0A409297C88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -350,6 +356,7 @@ Global
 		{28558547-B372-4995-A99A-38F58A327C24} = {18046992-4C27-4A5F-B978-35F8D133E236}
 		{6846DB78-4883-4C1B-B81F-FCBA2F4CC565} = {18046992-4C27-4A5F-B978-35F8D133E236}
 		{3B80282F-69C8-4B9F-A7B8-557EB0DD4755} = {18046992-4C27-4A5F-B978-35F8D133E236}
+		{FA50CBD3-DF8B-4674-9D9B-A0A409297C88} = {18046992-4C27-4A5F-B978-35F8D133E236}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE8C2BFD-B6FF-4D0D-A564-77425D85C708}
