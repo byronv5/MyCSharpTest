@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace AlgorithmTest
 {
@@ -342,6 +343,33 @@ namespace AlgorithmTest
                 array[right] = temparray[right];
                 right--;
             }
+        }
+        #endregion
+
+        #region 汉诺塔
+        /// <summary>
+        /// 将n个有序圆盘从x移到z，y作为辅助
+        /// </summary>
+        /// <param name="n">盘号从小到大1-n<param>
+        /// <param name="x">x杆</param>
+        /// <param name="y">y杆</param>
+        /// <param name="z">z杆</param>
+        public static void Hanoi(int n, char x, char y, char z)
+        {
+            if (n == 1)
+            {
+                Move(1, x, z);
+            }
+            else if (n > 1)
+            {
+                Hanoi(n - 1, x, z, y);
+                Move(n, x, z);//把盘号n从x移动到z
+                Hanoi(n - 1, x, y, x);
+            }
+        }
+        private static void Move(int n, char x, char y)
+        {
+            Console.WriteLine($"把盘号{n}从{x}移动到{y}");
         }
         #endregion
     }
