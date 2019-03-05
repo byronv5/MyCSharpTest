@@ -367,6 +367,12 @@ namespace AlgorithmTest
                 Hanoi(n - 1, x, y, x);
             }
         }
+        /// <summary>
+        /// 把盘号n从x移动到y
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
         private static void Move(int n, char x, char y)
         {
             Console.WriteLine($"把盘号{n}从{x}移动到{y}");
