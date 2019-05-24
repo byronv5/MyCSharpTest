@@ -21,6 +21,7 @@
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -86,7 +87,6 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AliyunApi\AliVerify.aspx" />
     <Content Include="EncipherTest.aspx" />
     <Content Include="Memcached\ShareCookieInDomains.aspx" />
     <Content Include="Scripts\WxConfig.js" />
@@ -123,14 +123,6 @@
     <Compile Include="ajax\GetWxJsApiConfig.ashx.cs">
       <DependentUpon>GetWxJsApiConfig.ashx</DependentUpon>
     </Compile>
-    <Compile Include="AliyunApi\AliVerify.aspx.cs">
-      <DependentUpon>AliVerify.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AliyunApi\AliVerify.aspx.designer.cs">
-      <DependentUpon>AliVerify.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AliyunApi\TestAfsCheck.cs" />
     <Compile Include="EncipherTest.aspx.cs">
       <DependentUpon>EncipherTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

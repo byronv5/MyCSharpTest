@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
+﻿using Common;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Globalization;
 using System.Security.Cryptography;
 using System.Text;
 using System.Web;
 using System.Web.Security;
-using Common;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace WebTest.ajax
 {
@@ -24,7 +22,7 @@ namespace WebTest.ajax
             string noncestr = GetNoncestr();//生成签名的随机串
             string page = context.Request["Pagepath"];
             string url = "http://" + context.Request.Url.Host + "/" + page;//当前的地址
-            string appid = "wx530e45f4637b6aec";
+            string appid = "*****";
 
             string jsapiTicke = GetJsapiTicket();//获取ticket
             string[] arrayList = { "jsapi_ticket=" + jsapiTicke, "timestamp=" + timeStamp, "noncestr=" + noncestr, "url=" + url };
@@ -69,19 +67,11 @@ namespace WebTest.ajax
         /// <returns></returns>
         public static string GetJsapiTicket()
         {
-            string appID = "wx530e45f4637b6aec";
-            string appSecret = "2c4f615e2ef6ceb0218291f637f828d1";
+            string appID = "******";
+            string appSecret = "******";
 
-            //string data = "grant_type=client_credential&appid=" + appID + "&secret=" + appSecret + "";
-            //string returnmsg = HttpHelper.GetResponse("https://api.weixin.qq.com/cgi-bin/token?" + data);
-            //var jb = JObject.Parse(returnmsg);
-            //string accesstoken = jb["access_token"] + "";
-            //string jsapiTicke = HttpHelper.GetResponse("https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=" + accesstoken + "&type=jsapi");
-            //Dictionary<string, object> respDic = JsonConvert.DeserializeObject<Dictionary<string, object>>(jsapiTicke);
-            //jsapiTicke = respDic["ticket"].ToString();//获取ticket
-            //return jsapiTicke;
             string reqponesJson =
-                HttpHelper.GetResponse(string.Format("http://yxyun.telefen.com/wx/tokenserver/default.aspx?type=1&appid={0}&appsecret={1}", appID, appSecret));
+                HttpHelper.GetResponse(string.Format("http://www.motherfuck.com/wx/tokenserver/default.aspx?type=1&appid={0}&appsecret={1}", appID, appSecret));
             var ja = JsonConvert.DeserializeObject<JObject>(reqponesJson);
             if (ja != null && ja["errcode"].ToString() == "1")
             {
@@ -108,7 +98,7 @@ namespace WebTest.ajax
             {
                 inputBye = Encoding.GetEncoding(charset).GetBytes(encypStr);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 inputBye = Encoding.GetEncoding("GB2312").GetBytes(encypStr);
             }
