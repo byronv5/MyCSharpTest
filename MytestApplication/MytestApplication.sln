@@ -141,7 +141,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chain", "Chain\Chain.csproj", "{AB06A62C-3F78-4A61-88A2-14F20F725C16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{F7B207A3-2A8D-4DA1-A315-559903FCE480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{F7B207A3-2A8D-4DA1-A315-559903FCE480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WillfullyTest", "WillfullyTest\WillfullyTest.csproj", "{5EF60E6A-6F17-4FB5-A658-52310C89C26A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -337,6 +339,10 @@ Global
 		{F7B207A3-2A8D-4DA1-A315-559903FCE480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7B207A3-2A8D-4DA1-A315-559903FCE480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7B207A3-2A8D-4DA1-A315-559903FCE480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF60E6A-6F17-4FB5-A658-52310C89C26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF60E6A-6F17-4FB5-A658-52310C89C26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF60E6A-6F17-4FB5-A658-52310C89C26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF60E6A-6F17-4FB5-A658-52310C89C26A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

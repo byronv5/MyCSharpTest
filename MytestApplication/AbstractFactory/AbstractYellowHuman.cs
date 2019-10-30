@@ -5,7 +5,7 @@ namespace AbstractFactory
     public abstract class AbstractYelllowHuman : IHuman
     {
         /// <summary>
-        /// 性别由子类实现，java的抽象类并不要求必须实现
+        /// 性别由子类实现，但是java的抽象方法不强制子类实现
         /// </summary>
         /// <returns></returns>
         public abstract string GetSex();
